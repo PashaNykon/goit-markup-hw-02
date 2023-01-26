@@ -94,7 +94,6 @@ body {
 }
 
 .header-mail {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -108,7 +107,6 @@ body {
 }
 
 .header-tel {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -131,6 +129,7 @@ body {
 
 .hero-btn {
   background-color: var(--web-herobtn-filterbtn-color);
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -251,9 +250,10 @@ body {
 }
 
 .portfolio-filter-btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   background-color: var(--filterbtn-footerlogo-team);
   color: var(--web-herobtn-filterbtn-color);
   cursor: pointer;
